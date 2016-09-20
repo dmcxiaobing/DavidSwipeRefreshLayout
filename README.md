@@ -2,15 +2,23 @@
 【Android】SwipeRefreshLayout的简单使用教程。下拉刷新控件炫酷效果。
 
 作者：程序员小冰，GitHub主页：https://github.com/QQ986945193 
+
 新浪微博：http://weibo.com/mcxiaobing 
+
 首先给大家看一下我们今天这个最终实现的效果图： 
+
 ![这里写图片描述](http://img.blog.csdn.net/20160911103900257)
 
 好了，简单的介绍一下，SwipeRefreshLayout是android系统自带的一个控件，
+
 可以看到现在App好多刷新都有这样类似的效果。其实它的使用还是比较
+
 简单的，就是在我们的listview的控件上面加上就行了，然后再在java代码
+
 中设置它的颜色，以及监听它的刷新事件。我这里随便用了一个list集合。
+
 还有刷新结束后没有操作什么内容，但是实际项目中大家按例套进去即可。
+
 首先SwipeRefreshLayout是V4包下的，我们xml引用它的时候可以是这样：
 
 ```
